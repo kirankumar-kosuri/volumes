@@ -52,8 +52,8 @@ kind: Service
 metadata:
   name: nginx-ebs-static
 spec:
+  type: LoadBlancer
   selector:
-    type: LoadBlancer
     purpose: ebs-static
   ports:
   - protocol: TCP

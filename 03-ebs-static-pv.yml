@@ -52,7 +52,7 @@ kind: Service
 metadata:
   name: nginx-ebs-static
 spec:
-  type: LoadBlancer
+  type: LoadBalancer
   selector:
     purpose: ebs-static
   ports:
